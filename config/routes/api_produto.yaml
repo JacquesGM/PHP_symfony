@@ -1,0 +1,9 @@
+api_produtos:
+  path: /api/produtos
+  controller: App\Controller\Api\ProdutoApiController::getList
+  methods: [GET]
+
+api_produto_POST:
+  path: /api/produtos
+  controller: App\Controller\Api\ProdutoApiController::create
+  methods: [POST]

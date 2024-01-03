@@ -1,0 +1,4 @@
+api_categoria:
+  path: /api/categorias
+  controller: App\Controller\Api\CategoriaApiController::getList
+  methods: [GET]
